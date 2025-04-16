@@ -1,0 +1,36 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+    display: inline-block;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+th {
+    background-color: lightgray;
+}
+.feriado {
+    background-color: #f99;
+}
+.agendamento {
+    background-color: #9f9;
+}
+
+.legenda {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.cor {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+    border: 1px solid #000;
+}
